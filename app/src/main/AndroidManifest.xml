@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.sqisland.android.advanced_textview" >
+
+  <application
+      android:allowBackup="true"
+      android:icon="@drawable/ic_launcher"
+      android:label="@string/app_name"
+      android:theme="@style/AppTheme" >
+    <activity
+        android:name=".MainActivity"
+        android:label="@string/app_name" >
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity
+        android:name=".AnimatedCompoundDrawableActivity"
+        android:label="@string/animated_compound_drawable"
+        android:parentActivityName=".MainActivity" />
+    <activity
+        android:name=".ShadowTextActivity"
+        android:label="@string/shadow_text"
+        android:parentActivityName=".MainActivity" />
+    <activity
+        android:name=".CustomFontActivity"
+        android:label="@string/custom_font"
+        android:parentActivityName=".MainActivity" />
+    <activity
+        android:name=".GradientTextActivity"
+        android:label="@string/gradient_text"
+        android:parentActivityName=".MainActivity" />
+    <activity
+        android:name=".PatternedTextActivity"
+        android:label="@string/patterned_text"
+        android:parentActivityName=".MainActivity" />
+    <activity
+        android:name=".FromHtmlActivity"
+        android:label="@string/from_html"
+        android:parentActivityName=".MainActivity" />
+    <activity
+        android:name=".StyledStringActivity"
+        android:label="@string/styled_string"
+        android:parentActivityName=".MainActivity" />
+    <activity
+        android:name=".AlignmentSpanActivity"
+        android:label="@string/alignment_span"
+        android:parentActivityName=".MainActivity" />
+    <activity
+        android:name=".ClickableSpanActivity"
+        android:label="@string/clickable_span"
+        android:parentActivityName=".MainActivity" />
+    <activity
+        android:name=".EmojiActivity"
+        android:label="@string/emoji"
+        android:parentActivityName=".MainActivity" />
+    <activity
+        android:name=".AboutActivity"
+        android:label="@string/about"
+        android:parentActivityName=".MainActivity" />
+  </application>
+
+</manifest>

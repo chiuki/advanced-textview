@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="shadow">#7000</color>
+  <color name="bottom_bar">#eee</color>
+
+  <color name="lighter_green">#dcf58f</color>
+  <color name="light_green">#c1e25e</color>
+  <color name="green">#a3c639</color>
+  <color name="dark_green">#85a71d</color>
+  <color name="darker_green">#648306</color>
+
+  <color name="yellow">#ff0</color>
+  <color name="blue">#33b5e5</color>
+  <color name="purple">#60308c</color>
+</resources>

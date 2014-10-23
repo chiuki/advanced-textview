@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="animated_compound_drawable_desc">animated-rotate, animation-list, animated-vector</string>
+</resources>
