@@ -43,12 +43,12 @@ public class EmojiActivity extends Activity {
     SpannableString spannableString = new SpannableString(text);
 
     // Icon font
-    ForegroundColorSpan foregroundColorSpan = new ForegroundColorSpan(
-        getResources().getColor(R.color.blue));
-    IconFontSpan iconFontSpan = new IconFontSpan(textView.getContext());
     Pattern pattern = Pattern.compile("\u26F7");    // skier
     Matcher matcher = pattern.matcher(text);
     while (matcher.find()) {
+      ForegroundColorSpan foregroundColorSpan = new ForegroundColorSpan(
+          getResources().getColor(R.color.blue));
+      IconFontSpan iconFontSpan = new IconFontSpan(textView.getContext());
       spannableString.setSpan(iconFontSpan, matcher.start(), matcher.end(), 0);
       spannableString.setSpan(foregroundColorSpan, matcher.start(), matcher.end(), 0);
     }

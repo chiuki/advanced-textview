@@ -17,8 +17,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:text="@string/emoji_text"
     android:textIsSelectable="true"
-    android:textSize="@dimen/text_size_large"
-    tools:context=".EmojiActivity"/>
+    android:textSize="@dimen/text_size_large"/>
   <Button
     android:id="@+id/render_emoji_button"
     android:layout_width="wrap_content"
