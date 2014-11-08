@@ -56,6 +56,10 @@
         android:label="@string/clickable_span"
         android:parentActivityName=".MainActivity" />
     <activity
+      android:name=".LinedPaperActivity"
+      android:label="@string/lined_paper"
+      android:parentActivityName=".MainActivity" />
+    <activity
         android:name=".EmojiActivity"
         android:label="@string/emoji"
         android:parentActivityName=".MainActivity" />

@@ -13,6 +13,9 @@
   <color name="blue">#33b5e5</color>
   <color name="purple">#60308c</color>
 
+  <color name="paper_background">#ffe3aa</color>
+  <color name="paper_line">#aa8539</color>
+
   <color name="rainbow_red">#bf0c43</color>
   <color name="rainbow_yellow">#f9ba15</color>
   <color name="rainbow_green">#8eac00</color>

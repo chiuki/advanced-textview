@@ -64,6 +64,13 @@
   </string>
   <string name="go_to_settings">go to settings</string>
 
+  <string name="lined_paper">Lined paper</string>
+  <string name="lined_paper_desc">Draw baselines</string>
+  <string name="lined_paper_text">
+    This is an EditText with baselines across its full width, taking paddings into account.
+    Try changing the text and see it adjust the number of lines.
+  </string>
+
   <string name="emoji">Emoji</string>
   <string name="emoji_desc">Inline images</string>
   <string name="emoji_text">
