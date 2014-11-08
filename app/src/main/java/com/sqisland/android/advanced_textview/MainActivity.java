@@ -41,6 +41,8 @@ public class MainActivity extends ListActivity {
             R.string.styled_string, R.string.styled_string_desc),
         new Demo(this, AlignmentSpanActivity.class,
             R.string.alignment_span, R.string.alignment_span_desc),
+        new Demo(this, RainbowSpanActivity.class,
+            R.string.rainbow_span, R.string.rainbow_span_desc),
         new Demo(this, ClickableSpanActivity.class,
             R.string.clickable_span, R.string.clickable_span_desc),
         new Demo(this, EmojiActivity.class,

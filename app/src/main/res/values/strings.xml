@@ -35,7 +35,7 @@
     ]]>
   </string>
 
-  <string name="styled_string">Styled String</string>
+  <string name="styled_string">Styled string</string>
   <string name="styled_string_desc">TextAppearance from styles.xml</string>
   <string name="big_red">Big red</string>
   <string name="medium_green">Medium green</string>
@@ -47,6 +47,15 @@
   <string name="add_to_right_button">R</string>
   <string name="alignment_span_line_1">Knock knock.</string>
   <string name="alignment_span_line_2">Who\'s there?</string>
+
+  <string name="rainbow_span">Rainbow span</string>
+  <string name="rainbow_span_desc">TextPaint with LinearGradient</string>
+  <string name="rainbow">rainbow</string>
+  <string name="rainbow_span_text">
+    Rainbow highlight! The text in the span is drawn with a LinearGradient as the Shader,
+    creating a rainbow where the gradient width scales with the text size. In this demo, the
+    highlighted term is also given a bold style.
+  </string>
 
   <string name="clickable_span">ClickableSpan</string>
   <string name="clickable_span_desc">Link to go to settings</string>
@@ -80,6 +89,10 @@
     <p>
     <a href="http://thenounproject.com/term/wifi/34656/">Wifi icon</a>
     by Alex Auda Samora from Noun Project
+    </p>
+    <p>
+    <a href="http://www.colourlovers.com/palette/1757442/Rainbow_Connection">Rainbow Connection palette</a>
+    by Luna Rosa from COLOURlovers.
     </p>
     ]]>
   </string>
