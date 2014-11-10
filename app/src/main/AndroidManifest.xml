@@ -40,6 +40,10 @@
         android:label="@string/from_html"
         android:parentActivityName=".MainActivity" />
     <activity
+        android:name=".FractionActivity"
+        android:label="@string/fraction"
+        android:parentActivityName=".MainActivity" />
+    <activity
         android:name=".StyledStringActivity"
         android:label="@string/styled_string"
         android:parentActivityName=".MainActivity" />

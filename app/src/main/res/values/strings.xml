@@ -35,6 +35,19 @@
     ]]>
   </string>
 
+  <string name="fraction">Fraction</string>
+  <string name="fraction_desc">TextPaint.setFontFeatureSettings()</string>
+  <string name="fraction_text">
+    <![CDATA[
+    1<afrc>1/2</afrc> + <afrc>11/16</afrc> = 2<afrc>3/16</afrc>
+    <br>
+    <br>
+    <afrc>22/7</afrc>
+    <afrc>355/113</afrc>
+    <afrc>103993/33102</afrc>
+    ]]>
+  </string>
+
   <string name="styled_string">Styled string</string>
   <string name="styled_string_desc">TextAppearance from styles.xml</string>
   <string name="big_red">Big red</string>
@@ -97,6 +110,12 @@
     <a href="http://thenounproject.com/term/wifi/34656/">Wifi icon</a>
     by Alex Auda Samora from Noun Project
     </p>
+    <p>
+    Stacked fraction font
+    <a href="https://github.com/TiroTypeworks/Nutso">Nutso</a>
+    from TiroTypeworks
+    </p>
+
     <p>
     <a href="http://www.colourlovers.com/palette/1757442/Rainbow_Connection">Rainbow Connection palette</a>
     by Luna Rosa from COLOURlovers.
