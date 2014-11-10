@@ -50,6 +50,8 @@ public class MainActivity extends ListActivity {
         R.string.alignment_span, R.string.alignment_span_desc));
     demos.add(new Demo(this, RainbowSpanActivity.class,
         R.string.rainbow_span, R.string.rainbow_span_desc));
+    demos.add(new Demo(this, AnimatedRainbowSpanActivity.class,
+        R.string.animated_rainbow_span, R.string.animated_rainbow_span_desc));
     demos.add(new Demo(this, ClickableSpanActivity.class,
         R.string.clickable_span, R.string.clickable_span_desc));
     demos.add(new Demo(this, LinedPaperActivity.class,

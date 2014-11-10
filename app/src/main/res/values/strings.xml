@@ -70,6 +70,13 @@
     highlighted term is also given a bold style.
   </string>
 
+  <string name="animated_rainbow_span">Animated rainbow span</string>
+  <string name="animated_rainbow_span_desc">With ObjectAnimator</string>
+  <string name="animated_rainbow_span_text">
+    To make an animated rainbow span, translate the Shader with a Matrix, and change the translation
+    value with an ObjectAnimator.
+  </string>
+
   <string name="clickable_span">ClickableSpan</string>
   <string name="clickable_span_desc">Link to go to settings</string>
   <string name="clickable_span_text">
