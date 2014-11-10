@@ -50,7 +50,8 @@
     <activity
       android:name=".RainbowSpanActivity"
       android:label="@string/rainbow_span"
-      android:parentActivityName=".MainActivity" />
+      android:parentActivityName=".MainActivity"
+      android:windowSoftInputMode="adjustResize" />
     <activity
         android:name=".ClickableSpanActivity"
         android:label="@string/clickable_span"
