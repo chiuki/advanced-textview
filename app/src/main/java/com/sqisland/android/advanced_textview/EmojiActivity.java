@@ -109,6 +109,7 @@ public class EmojiActivity extends Activity {
     private final float textSize;
     private final float strokeWidth;
     private final String number;
+    private Paint paint;
 
     public SpeedSignDrawable(TextView textView, String number) {
       this.ascent = textView.getPaint().ascent();
@@ -120,13 +121,13 @@ public class EmojiActivity extends Activity {
 
       int size = (int) -ascent;
       this.setBounds(0, 0, size, size);
+
+      this.paint = new Paint(Paint.ANTI_ALIAS_FLAG);
     }
 
     @Override
     public void draw(Canvas canvas) {
       int size = (int) -ascent;
-
-      Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
 
       // Draw the circle
       paint.setStyle(Paint.Style.FILL);
