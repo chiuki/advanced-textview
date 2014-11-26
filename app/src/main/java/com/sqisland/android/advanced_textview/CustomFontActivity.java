@@ -23,7 +23,6 @@ public class CustomFontActivity extends Activity {
   public View onCreateView(View parent, String name, Context context, AttributeSet attrs) {
     //this would apply to all textviews in the app
     if (name.equals("TextView")) {
-      System.out.println("loading custom font");
       TextView view = new TextView(this, attrs);
       view.setTypeface(typeface);
       return view;
@@ -36,7 +35,6 @@ public class CustomFontActivity extends Activity {
   public View onCreateView(String name, Context context, AttributeSet attrs) {
     //this would apply to all textviews in the app
     if (name.equals("TextView")) {
-      System.out.println("loading custom font");
       TextView view = new TextView(this, attrs);
       view.setTypeface(typeface);
       return view;
