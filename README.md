@@ -6,6 +6,7 @@ Companion app for my [Advanced Android TextView talk][1], demostrating:
  * Animated `CompoundDrawable`
  * Text shadow
  * Custom font
+ * Non-breaking space
  * Gradient text
  * Patterned text
  * `HTML.fromHtml()`

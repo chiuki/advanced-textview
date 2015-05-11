@@ -28,6 +28,10 @@
         android:label="@string/custom_font"
         android:parentActivityName=".MainActivity" />
     <activity
+        android:name=".NonBreakingSpaceActivity"
+        android:label="@string/non_breaking_space"
+        android:parentActivityName=".MainActivity" />
+    <activity
         android:name=".GradientTextActivity"
         android:label="@string/gradient_text"
         android:parentActivityName=".MainActivity" />

@@ -32,6 +32,8 @@ public class MainActivity extends ListActivity {
         R.string.shadow_text, R.string.shadow_text_desc));
     demos.add(new Demo(this, CustomFontActivity.class,
         R.string.custom_font, R.string.custom_font_desc));
+    demos.add(new Demo(this, NonBreakingSpaceActivity.class,
+        R.string.non_breaking_space, R.string.non_breaking_space_desc));
     demos.add(new Demo(this, GradientTextActivity.class,
         R.string.gradient_text, R.string.gradient_text_desc));
     demos.add(new Demo(this, PatternedTextActivity.class,

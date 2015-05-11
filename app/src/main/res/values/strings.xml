@@ -17,6 +17,11 @@
   <string name="custom_font">Custom font</string>
   <string name="custom_font_desc">Load from assets folder</string>
 
+  <string name="non_breaking_space">Non-breaking space</string>
+  <string name="non_breaking_space_desc">Prevent last word from dangling</string>
+  <string name="non_breaking_space_text">A sentence that takes more than one line</string>
+  <string name="non_breaking_space_text_nbsp">A sentence that takes more than one&#160;line</string>
+
   <string name="gradient_text">Gradient text</string>
   <string name="gradient_text_desc">LinearGradient</string>
   <string name="gradient">Gradient</string>
