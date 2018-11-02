@@ -1,15 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-  compileSdkVersion 22
-  buildToolsVersion "22.0.1"
+  compileSdkVersion 28
+  buildToolsVersion '28.0.3'
 
   defaultConfig {
     applicationId "com.sqisland.android.advanced_textview"
     minSdkVersion 4
-    targetSdkVersion 22
+    targetSdkVersion 28
     versionCode 3
-    versionName "1.2.0"
+    versionName '1.2.0'
   }
 
   buildTypes {
@@ -21,6 +21,6 @@ android {
 }
 
 dependencies {
-  compile fileTree(dir: 'libs', include: ['*.jar'])
-  compile 'com.nineoldandroids:library:2.4.0'
+  implementation fileTree(dir: 'libs', include: ['*.jar'])
+  implementation 'com.nineoldandroids:library:2.4.0'
 }
